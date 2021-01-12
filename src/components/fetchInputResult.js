@@ -13,7 +13,7 @@ class FetchInputResult extends Component {
     }
 
     async componentDidMount(){
-        document.getElementById('nonValid').innerHTML = 'Example: Staten Island is in 10314'
+        document.getElementById('nonValid').innerHTML = 'You will be displayed the cities within that ZipCode'
     }
 
     findZips = async (zipCode) => {
