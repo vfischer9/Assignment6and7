@@ -20,7 +20,7 @@ class FetchInputResult extends Component {
 
     findZips = async (zipCode) => {
         try{
-            const url = 'http://ctp-zip-api.herokuapp.com/zip/' + zipCode;
+            const url = 'https://ctp-zip-api.herokuapp.com/zip/' + zipCode;
             const response = await fetch(url);
             console.log(response)
             if(response.status !== 200){
@@ -54,7 +54,7 @@ class FetchInputResult extends Component {
 
     findCities = async (city) => {
         try{
-            const url = 'http://ctp-zip-api.herokuapp.com/city/' + city;
+            const url = 'https://ctp-zip-api.herokuapp.com/city/' + city;
             const response = await fetch(url);
             console.log(response)
             if(response.status !== 200){
