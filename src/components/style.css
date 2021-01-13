@@ -2,7 +2,7 @@
     margin-left: 10px;
 }
 
-#nonValid{
+#nonValid, #nonValidCity{
     display: inline-block;
     margin-left: 10px;
 }
@@ -19,4 +19,9 @@ input{
 
 p{
     font-style: italic;
+}
+
+.list{
+    display: inline-block;
+    margin-right: 10px;
 }
