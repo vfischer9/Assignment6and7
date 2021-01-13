@@ -6,14 +6,22 @@ function FetchInput(props) {
 
     return (
         <div>
-            <h1 className='ml'>Please enter a ZipCode</h1>
-            <p id='nonValid'></p>
+            
             <form>
+                <h1 className='ml'>Please enter a ZipCode</h1>
+                <p id='nonValid'></p>
                 <input className='ml' id='zip' name='zipCode' type='text' placeholder='10314' onChange={props.handleZipChange}></input>
             </form>
             <br></br>
-            <h4 className='ml'>Cities in entered ZipCode: </h4>
+
+            <form>
+                <h1 className='ml'>Please enter a City</h1>
+                <p id='nonValidCity'></p>
+                <input className='ml' id='city' name='zipCode' type='text' placeholder='Manhattan' onChange={props.handleCityChange}></input>
+            </form>
+                <br></br>
         </div>
+        
     )
 }
 
